@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Perceive360 </title>
+    <!-- awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-------------------------------------- Link To css --------------------------->
+    <link rel="stylesheet" href="/CSS/style.css">
+    <!-------------------------------------- Box icons --------------------------->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!---------------------------------- HTML ---------------------------------->
+    <link rel="icon" href="/New folder/Web capture_27-12-2022_225131_127.0.0.1.jpeg">
+</head>
+
+<body>
+    <!------------------------------- Header -------------------------------->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!------------------------- Logo ------------------------->
+            <a href="#" class="logo">Perceive<span>360</span> </a>
+            <!-- Login Btn -->
+            <a href="#" class="login">Login</a>
+        </div>
+        <nav>
+            <div class="nev-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/html/About Us.html">ABOUT</a></li>
+                    <li><a href="/html/COMMUNITY.html">COMMUNITY</a></li>
+                    <li><a href="/html/notification.html">NOTIFICATION</a></li>
+                    <li><a href="/html/Contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </header>
+    <!----------------------- HOme ---------------->
+    <section class="home" id="home">
+        <!----------------------- Post Filter  hamburger-menu ----------------------->
+
+        <div class="home-text container">
+            <a href="#" class="logo">Perceive<span>360</span> </a> <br>
+            <span class="home-subtitle">"Unbiased, Unadulterated and Based on facts"</span>
+
+        </div>
+    </section>
+    <!----------------------- Post Filter ----------------------->
+    <div class="post-filter container">
+        <span class="fliter-item active-filter" data-filter="all">All</span>
+        <span class="fliter-item" data-filter="contemporary_word"> contemporary word</span>
+        <span class="fliter-item" data-filter="Indian_history">Indian history</span>
+        <span class="fliter-item" data-filter="modern_history">modern history</span>
+        <span class="fliter-item" data-filter="more">More</span>
+        <!-- <span class="fliter-item" data-filter="design">Indian history</span> -->
+        <!-- <span class="fliter-item" data-filter="tech">modern history</span> -->
+        <!-- <span class="fliter-item" data-filter="more">More</span> -->
+    </div>
+    <!----------------------- search box ----------------------->
+    <!-- <div class="wrapper">
+        <form class="search">
+            <input type="text" class="searchText" placeholder="Find some cool stuff">
+            <input type="submit" class="searchButton" value="GO" disabled></input>
+        </form>
+    </div> -->
+
+    <!---------------------------------- posts ---------------------------------->
+    <section class="post container">
+
+        <!------------------------------- post box - 1 ------------------------------->
+
+        <div class="post-box Indian_history">
+            <img src="/photos/bell bottom.jpg" alt="" class="post-img">
+        
+            <h2 class="category">Indian history</h2>
+            <a href="/html/bell bottom.html" class="post-title">
+                Bell Bottom 2021 WebRip 720p Hindi
+            </a>
+            <span class="post-date"> release date 19 August 2021</span>
+            <p class="post-decription">When an Indian commercial airliner is hijacked by terrorists in the mid 1980s, 
+                a government agent is tasked with rescuing the 210 hostages.
+            </p>
+            <!------------------------- profile ------------------------->
+            <div class="profile">
+                <img src="/directer/Ranjit M. Tewari..jpg" alt="" class="profile-img">
+                <span class="profile-name">directed by Ranjit M. Tewari</span>
+            </div>
+        </div>
+        <!------------------------------- post box - 2 ------------------------------->
+
+        <div class="post-box Indian_history">
+            <img src="/New folder/post page 2/first img.jpeg" alt="" class="post-img">
+            <h2 class="category">Indian history</h2>
+            <a href="/html/post-page_2.html" class="post-title">
+                Heinz guderian : A Remarkable man in terrible times
+            </a>
+            <span class="post-date">05-JAN-2023</span>
+            <p class="post-decription">Heinz Wilhelm Guderian ( 17 June 1888- 14 May 1954) was a general in the German
+                army who is popularly known among the historians as “Father of Blitzkrieg” for his contributions to the
+                technique of modern day warfare centralized along light armoured tanks.
+            </p>
+            <!------------------------- profile ------------------------->
+            <div class="profile">
+                <img src="/New folder/Ayush.jpeg" alt="" class="profile-img">
+                <span class="profile-name">Penned down by Ayush Pandey</span>
+            </div>
+        </div>
+        <!------------------------------- post box - 3 ------------------------------->
+
+        <div class="post-box Indian_history">
+            <img src="/New folder/exp/Indian history 3.jpg" alt="" class="post-img">
+            <h2 class="category">Indian history</h2>
+            <a href="post-page_1.html" class="post-title">
+                First call For Pakistan: The bleak history of Indian Partition
+            </a>
+            <span class="post-date">30-DEC-2022</span>
+            <p class="post-decription">First call For Pakistan: The bleak history of Indian Partition
+                NOW OR NEVER : ARE WE TO LIVE OR PERISH FOREVER
+            </p>
+        <!------------------------- profile ------------------------->
+        <div class="profile">
+                <img src="/New folder/Ayush.jpeg" alt="" class="profile-img">
+                <span class="profile-name">Penned down by Ayush Pandey</span>
+            </div>
+        </div>
+        <!------------------------------- post box - 4 ------------------------------->
+
+        <!-- <div class="post-box contemporary_word">
+            <img src="/New folder/exp/contemporary word 1.jpg" alt="" class="post-img">
+            <h2 class="category">contemporary word</h2>
+            <a href="post-page_1.html" class="post-title">
+                First call For Pakistan: The bleak history of Indian Partition
+            </a>
+            <span class="post-date">30-DEC-2022</span>
+            <p class="post-decription">First call For Pakistan: The bleak history of Indian Partition
+                NOW OR NEVER : ARE WE TO LIVE OR PERISH FOREVER
+            </p> -->
+        <!------------------------- profile ------------------------->
+        <!-- <div class="profile">
+                <img src="/New folder/Ayush.jpeg" alt="" class="profile-img">
+                <span class="profile-name">Penned down by Ayush Pandey</span>
+            </div>
+        </div> -->
+        <!------------------------------- post box - 5 ------------------------------->
+
+        <!-- <div class="post-box contemporary_word">
+            <img src="/New folder/exp/contemporary word 2.jpg" alt="" class="post-img">
+            <h2 class="category">contemporary word</h2>
+            <a href="post-page_1.html" class="post-title">
+                First call For Pakistan: The bleak history of Indian Partition
+            </a>
+            <span class="post-date">30-DEC-2022</span>
+            <p class="post-decription">First call For Pakistan: The bleak history of Indian Partition
+                NOW OR NEVER : ARE WE TO LIVE OR PERISH FOREVER
+            </p> -->
+        <!------------------------- profile ------------------------->
+        <!-- <div class="profile">
+                <img src="/New folder/Ayush.jpeg" alt="" class="profile-img">
+                <span class="profile-name">Penned down by Ayush Pandey</span>
+            </div>
+        </div> -->
+        <!------------------------------- post box - 6 ------------------------------->
+
+        <!-- <div class="post-box contemporary_word">
+            <img src="/New folder/exp/contemporary word 3.jpg" alt="" class="post-img">
+            <h2 class="category">contemporary word</h2>
+            <a href="post-page_1.html" class="post-title">
+                First call For Pakistan: The bleak history of Indian Partition
+            </a>
+            <span class="post-date">30-DEC-2022</span>
+            <p class="post-decription">First call For Pakistan: The bleak history of Indian Partition
+                NOW OR NEVER : ARE WE TO LIVE OR PERISH FOREVER
+            </p> -->
+        <!------------------------- profile ------------------------->
+        <!-- <div class="profile">
+                <img src="/New folder/Ayush.jpeg" alt="" class="profile-img">
+                <span class="profile-name">Penned down by Ayush Pandey</span>
+            </div> -->
+        <!------------------------------- post box - 7 ------------------------------->
+        <!-- </div>
+        <div class="post-box modern_history">
+            <img src="/New folder/exp/modern history 1.jpg" alt="" class="post-img">
+            <h2 class="category">modern history</h2>
+            <a href="post-page_1.html" class="post-title">
+                First call For Pakistan: The bleak history of Indian Partition
+            </a>
+            <span class="post-date">30-DEC-2022</span>
+            <p class="post-decription">First call For Pakistan: The bleak history of Indian Partition
+                NOW OR NEVER : ARE WE TO LIVE OR PERISH FOREVER
+            </p> -->
+        <!------------------------- profile ------------------------->
+        <!-- <div class="profile">
+                <img src="/New folder/Ayush.jpeg" alt="" class="profile-img">
+                <span class="profile-name">Penned down by Ayush Pandey</span>
+            </div>
+        </div> -->
+        <!------------------------------- post box - 8 ------------------------------->
+        <!-- </div>
+        <div class="post-box modern_history">
+            <img src="/New folder/exp/modern history 2.jpg" alt="" class="post-img">
+            <h2 class="category">modern history</h2>
+            <a href="post-page_1.html" class="post-title">
+                First call For Pakistan: The bleak history of Indian Partition
+            </a>
+            <span class="post-date">30-DEC-2022</span>
+            <p class="post-decription">First call For Pakistan: The bleak history of Indian Partition
+                NOW OR NEVER : ARE WE TO LIVE OR PERISH FOREVER
+            </p> -->
+        <!------------------------- profile ------------------------->
+        <!-- <div class="profile">
+                <img src="/New folder/Ayush.jpeg" alt="" class="profile-img">
+                <span class="profile-name">Penned down by Ayush Pandey</span>
+            </div>
+        </div> -->
+        <!------------------------------- post box - 9 ------------------------------->
+        <!-- </div>
+        <div class="post-box modern_history">
+            <img src="/New folder/exp/modern history 3.jpg" alt="" class="post-img">
+            <h2 class="category">modern history</h2>
+            <a href="post-page_1.html" class="post-title">
+                First call For Pakistan: The bleak history of Indian Partition
+            </a>
+            <span class="post-date">30-DEC-2022</span>
+            <p class="post-decription">First call For Pakistan: The bleak history of Indian Partition
+                NOW OR NEVER : ARE WE TO LIVE OR PERISH FOREVER
+            </p> -->
+        <!------------------------- profile ------------------------->
+        <!-- <div class="profile">
+                <img src="/New folder/Ayush.jpeg" alt="" class="profile-img">
+                <span class="profile-name">Penned down by Ayush Pandey</span>
+            </div>
+        </div> -->
+    </section>
+    <!------------------------------- post box - 2 ------------------------------->
+    <!-- footer -->
+    <footer class="footer">
+        <video class="footer_video" muted="" loop="" autoplay
+            src="//cdn.shopify.com/s/files/1/0526/6905/5172/t/5/assets/footer.mp4?v=29581141968431347981633714450"
+            type="video/mp4">
+        </video>
+
+        <div class="container">
+            <div class="footer_inner">
+                <div class="c-footer">
+                    <div class="layout">
+                        <div class="layout_item w-50">
+                            <div class="newsletter">
+                                <h3 class="newsletter_title"> Ayush Pandey <br> Founder, Perceive360 <br></h3>
+                            </div>
+                            <!-- <div class="count">
+                                <p>This page was tot viewed</p>
+                                <h1 id="count">0</h1>
+                                <p>times</p>
+                            </div> -->
+                        </div>
+
+                        <div class="layout_item w-25">
+                            <nav class="c-nav-tool">
+                                <h4 class="c-nav-tool_title">Menu</h4>
+                                <ul class="c-nav-tool_list">
+                                    <!-- <li>
+                                        <a href="/collections/all" class="c-link">Shop All</a>
+                                    </li> -->
+
+                                    <li>
+                                        <a href="/html/About Us.html" class="c-link">🧏‍♀️ About Us</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="c-link">✊ Community</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="c-link">📼 videos</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+
+                        <div class="layout_item w-25">
+                            <nav class="c-nav-tool">
+                                <h4 class="c-nav-tool_title">Support</h4>
+                                <ul class="c-nav-tool_list">
+
+                                    <li class="c-nav-tool_item">
+                                        <a href="#" class="c-link">Shipping &amp; Returns</a>
+                                    </li>
+
+                                    <li class="c-nav-tool_item">
+                                        <a href="#" class="c-link">Help &amp; FAQ</a>
+                                    </li>
+
+                                    <li class="c-nav-tool_item">
+                                        <a href="#" class="c-link">Terms &amp; Conditions</a>
+                                    </li>
+
+                                    <li class="c-nav-tool_item">
+                                        <a href="#" class="c-link">Privacy Policy</a>
+                                    </li>
+
+                                    <li class="c-nav-tool_item">
+                                        <a href="#" class="c-link">🤳Contact</a>
+                                    </li>
+
+                                    <li class="c-nav-tool_item">
+                                        <a href="#" class="c-link">
+                                            Login
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                    <div class="layout c-2">
+
+                        <div class="layout_item w-25">
+                            <ul class="flex">
+                                <!-- Facebook -->
+                                <li>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32"
+                                            height="32">
+                                            <path fill="none" d="M0 0h24v24H0z" />
+                                            <path
+                                                d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <!-- twitter -->
+                                <li>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32"
+                                            height="32">
+                                            <path fill="none" d="M0 0h24v24H0z" />
+                                            <path
+                                                d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <!-- instagram -->
+                                <li>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32"
+                                            height="32">
+                                            <path fill="none" d="M0 0h24v24H0z" />
+                                            <path
+                                                d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="layout_item w-25" style="display:flex;justify-content: end;align-items: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path
+                                    d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm1 10h3l-4-4-4 4h3v4h2v-4z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copyright">
+                <p>Copyright &copy; 2023 All Rights Reserved by Perceive360 </p>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery Link -->
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous">
+        </script>
+    <!------------------------------ link to js ----------------------------------->
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
